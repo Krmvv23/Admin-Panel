@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.SideNav {
+    background-color: $dark;
+    height: 100vh;
+    @include flex(center, center);
+
+    &_list {
+        margin-bottom: 15px;
+
+        a.active {
+            color: #fff;
+        }
+
+        a {
+            color: $darkgrey;
+            font-size: 25px;
+        }
+
+    }
+}

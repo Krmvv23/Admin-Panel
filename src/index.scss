@@ -1,0 +1,44 @@
+$dark:rgb(33,34,45);
+$blue:rgb(57,88,205);
+$orange:rgb(254,148,43);
+$lightgrey:rgb(233,235,250);
+$darkgrey:rgb(119,120,130);
+
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow: hidden;
+}
+#root{
+  min-height: 100vh;
+
+}
+
+:is(input,select){
+  outline: none;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+button{
+  box-shadow: none !important;
+}
+
+p{
+  margin: unset;
+}
+
+.color-blue{
+  color: $blue;
+}
+.bg-grey{
+  background-color: $lightgrey;
+}
+
+@mixin flex($justify,$align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.order-list {
+    &_lists {
+        background-color: $lightgrey;
+        height: 100vh;
+        padding: 20px;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar-track {
+            background-color: #000 !important;
+        }
+
+        .add-btn {
+            background-color: $blue;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+
+            &:hover {
+                color: $blue;
+                background-color: #fff;
+                border-color: $blue;
+            }
+        }
+         
+
+        .list {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            &.active{
+                border-left: 5px solid $blue;
+            }
+            div{
+                font-weight: 500;
+            }
+
+            .date {
+                font-size: 12px;
+            }
+        }
+    }
+}

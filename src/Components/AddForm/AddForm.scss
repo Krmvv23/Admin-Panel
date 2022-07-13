@@ -1,0 +1,39 @@
+@import '../../index.scss';
+
+.AddForm {
+
+    input,
+    select,
+    option {
+        border: 1px solid $lightgrey;
+        padding-left: 5px;
+        border-radius: 4px;
+    }
+
+    .add-btn {
+        font-size: 14px;
+        color: $blue;
+        border: none;
+        background-color: #fff;
+        font-weight: 500;
+    }
+
+    .remove-btn {
+        border: none;
+        background-color: transparent;
+        color: $dark;
+
+    }
+
+    .submit-btn {
+        background-color: $blue;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .close-btn {
+        color: $blue;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+}

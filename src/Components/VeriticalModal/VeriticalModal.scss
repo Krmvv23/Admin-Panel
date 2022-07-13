@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+.veriticalModal {
+
+    &_header {
+        color: $dark  !important;
+        padding: 10px 15px;
+    }
+    &_body{
+        border-bottom-left-radius: calc(0.5rem - 1px);
+        border-bottom-right-radius: calc(0.5rem - 1px);
+        padding: 10px 15px;
+    }
+
+}

@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.Alert{
+    position: fixed;
+    bottom: -100%;
+    right: 10px;
+    background-color: rgb(51, 144, 51);
+    border-radius: 5px;
+    padding: 30px;
+    height: 100px;
+    width: 250px;
+    color: #fff;
+    transition: all .5s;
+    @include flex(center, center)
+}
+
+.show-alert{
+    bottom: 10px !important;
+
+}

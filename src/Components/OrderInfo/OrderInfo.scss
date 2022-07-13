@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.orderInfo{
+    padding: 20px;
+    .food-list{
+        background-color: $lightgrey;
+        padding: 20px ;
+        border-radius: 5px;
+    }
+    .bg-grey{
+        background-color: $lightgrey;
+        padding: 20px ;
+        border-radius: 5px;
+    }
+    .done-btn{
+        border: none;
+        background-color: $blue;
+        color: #fff;
+        font-weight: 500;
+    }
+    .cancel-btn{
+        margin-right: 20px;
+        border: none;
+        border-bottom: 1px solid $blue;
+        padding: 0;
+        border-radius: 0;
+        font-weight: 500;
+        color: $blue;
+    }
+}
